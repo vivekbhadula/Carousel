@@ -1,5 +1,21 @@
 function goPrev() {
   //   document.getElementsByClassName("card")[0].style.marginLeft = "-33%";
+  let x = document.getElementsByClassName("card");
+  let z = document.querySelectorAll(".card.active");
+  let x1 = x.length;
+  let z1 = z.length;
+  console.log(z1);
+  if (z) {
+    if (x[0].classList.contains("active")) {
+      return;
+    } else {
+      let i = 0;
+      z[0].previousElementSibling.style.display = "flex";
+      z[0].previousElementSibling.classList.add("active");
+      z[2].style.display = "none";
+      z[2].classList.remove("active");
+    }
+  }
 }
 
 function goNext() {
