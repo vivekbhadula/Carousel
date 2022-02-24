@@ -10,59 +10,62 @@
   <body>
     <h1>Carousel Website</h1>
     <div class="cardContainer">
-      <div class="arrowBtns">
-        <div class="arrowBtn prev">&lt;</div>
-        <div class="arrowBtn next">&gt;</div>
-      </div>
-      <div class="card">
-        <img src="./Assets/BAJRANGBALI.jpeg" alt="God" class="cardImg" />
-        <p class="cardText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse,
-          iure minima itaque hic natus accusamus explicabo, quis iste,
-          voluptates veritatis voluptatem. Repellendus, quidem consectetur! Sit
-          voluptatum culpa ipsam libero?
-        </p>
-      </div>
-      <div class="card">
-        <img src="./Assets/big3.jpeg" alt="Big 3" class="cardImg" />
-        <p class="cardText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse,
-          iure minima itaque hic natus accusamus explicabo, quis iste,
-          voluptates veritatis voluptatem. Repellendus, quidem consectetur! Sit
-          voluptatum culpa ipsam libero?
-        </p>
-      </div>
-      <div class="card">
-        <img
-          src="./Assets/cover_upload.png"
-          alt="Cover_Upload"
-          class="cardImg"
-        />
-        <p class="cardText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse,
-          iure minima itaque hic natus accusamus explicabo, quis iste,
-          voluptates veritatis voluptatem. Repellendus, quidem consectetur! Sit
-          voluptatum culpa ipsam libero?
-        </p>
-      </div>
-      <div class="card">
-        <img src="./Assets/draken.jpeg" alt="Draken" class="cardImg" />
-        <p class="cardText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse,
-          iure minima itaque hic natus accusamus explicabo, quis iste,
-          voluptates veritatis voluptatem. Repellendus, quidem consectetur! Sit
-          voluptatum culpa ipsam libero?
-        </p>
-      </div>
-      <div class="card">
-        <img src="./Assets/gokuKid.jpeg" alt="Goku" class="cardImg" />
-        <p class="cardText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse,
-          iure minima itaque hic natus accusamus explicabo, quis iste,
-          voluptates veritatis voluptatem. Repellendus, quidem consectetur! Sit
-          voluptatum culpa ipsam libero?
-        </p>
+      <div class="cardContainer1">
+        <div class="arrowBtns">
+          <div class="arrowBtn" id="prev" onClick="goPrev()">&lt;</div>
+          <div class="arrowBtn" id="next" onClick="goNext()">&gt;</div>
+        </div>
+        <div class="card active">
+          <img src="./Assets/BAJRANGBALI.jpeg" alt="God" class="cardImg" />
+          <p class="cardText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            esse, iure minima itaque hic natus accusamus explicabo, quis iste,
+            voluptates veritatis voluptatem. Repellendus, quidem consectetur!
+            Sit voluptatum culpa ipsam libero?
+          </p>
+        </div>
+        <div class="card active">
+          <img src="./Assets/big3.jpeg" alt="Big 3" class="cardImg" />
+          <p class="cardText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            esse, iure minima itaque hic natus accusamus explicabo, quis iste,
+            voluptates veritatis voluptatem. Repellendus, quidem consectetur!
+            Sit voluptatum culpa ipsam libero?
+          </p>
+        </div>
+        <div class="card active">
+          <img
+            src="./Assets/cover_upload.png"
+            alt="Cover_Upload"
+            class="cardImg"
+          />
+          <p class="cardText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            esse, iure minima itaque hic natus accusamus explicabo, quis iste,
+            voluptates veritatis voluptatem. Repellendus, quidem consectetur!
+            Sit voluptatum culpa ipsam libero?
+          </p>
+        </div>
+        <div class="card">
+          <img src="./Assets/draken.jpeg" alt="Draken" class="cardImg" />
+          <p class="cardText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            esse, iure minima itaque hic natus accusamus explicabo, quis iste,
+            voluptates veritatis voluptatem. Repellendus, quidem consectetur!
+            Sit voluptatum culpa ipsam libero?
+          </p>
+        </div>
+        <div class="card">
+          <img src="./Assets/gokuKid.jpeg" alt="Goku" class="cardImg" />
+          <p class="cardText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            esse, iure minima itaque hic natus accusamus explicabo, quis iste,
+            voluptates veritatis voluptatem. Repellendus, quidem consectetur!
+            Sit voluptatum culpa ipsam libero?
+          </p>
+        </div>
       </div>
     </div>
+    <script src="./JS/index.js"></script>
   </body>
 </html>
